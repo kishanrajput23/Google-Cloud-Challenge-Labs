@@ -6,6 +6,10 @@ Do not change the other settings just click on the create.
 
 # Task 2 : Create a Kubernetes service cluster
 
+gcloud auth list
+
+gcloud config list project
+
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
           --network nucleus-vpc \
