@@ -29,7 +29,7 @@ gcloud compute firewall-rules create fw-ssh-prod --source-ranges=0.0.0.0/0 --tar
 
 # Task - 4 : Create and configure Cloud SQL Instance
 
-gcloud sql instances create griffin-dev-db --root-password password --region=us-east1
+gcloud sql instances create griffin-dev-db --root-password password --region=us-east1 --database-version=MYSQL_5_7
 
 gcloud sql connect griffin-dev-db
 
@@ -57,11 +57,9 @@ gsutil cp -r gs://cloud-training/gsp321/wp-k8s .
 
 # Task - 6 : Prepare the Kubernetes cluster
 
-Open Editor -> wp-k8s -> wp-env.yaml Change username and password to:
-username : wp_user
-password : stormwind_rules
+sed -i "s/username_goes_here/wp_user/g" wp-k8s/wp-env.yaml
 
-Save.
+sed -i "s/username_goes_here/stormwind_rules/g" wp-k8s/wp-env.yaml
 
 cd wp-k8s
 
@@ -74,9 +72,7 @@ kubectl create secret generic cloudsql-instance-credentials \
 
 # Task - 7 : Create a WordPress deployment
 
-In editor: wp-deployment.yaml -> replace YOUR_SQL_INSTANCE with griffin-dev-db.
-
-Save.
+sed -i "s/YOUR_SQL_INSTANCE/griffin-dev-db/g" wp-deployment.yaml
 
 kubectl create -f wp-deployment.yaml
 kubectl create -f wp-service.yaml
@@ -97,11 +93,6 @@ Next -> Next -> Create
 
 # Task - 9 : Provide access for an additional engineer
 
-Navigation Menu -> IAM & Admin -> IAM -> ADD
-
-New Member : {Username 2 from Lab instruction page}
-Role : Project -> Editor
-
-Save.
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member=user:$USER_NAME2 --role=roles/editor
 
 Congratulations, you're all done with the lab 😄
