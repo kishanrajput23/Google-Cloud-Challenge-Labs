@@ -33,6 +33,9 @@ gcloud sql instances create griffin-dev-db --root-password password --region=us-
 
 gcloud sql connect griffin-dev-db
 
+Note : After entering above command it will ask you for a password then simply type "password" and hit enter button. Also remember when you're typing, at that time you
+are not able to see anything so ignore it and follow the above.
+
 CREATE DATABASE wordpress;
 GRANT ALL PRIVILEGES ON wordpress.* TO "wp_user"@"%" IDENTIFIED BY "stormwind_rules";
 FLUSH PRIVILEGES;
