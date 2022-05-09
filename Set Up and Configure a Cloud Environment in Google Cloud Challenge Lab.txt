@@ -93,6 +93,10 @@ Next -> Next -> Create
 
 # Task - 9 : Provide access for an additional engineer
 
-gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member=user:$USER_NAME2 --role=roles/editor
+Navigation Menu -> IAM & Admin -> IAM -> ADD
+New Member : {Username 2 from Lab instruction page}
+Role : Project -> Editor
+
+Save.
 
 Congratulations, you're all done with the lab 😄
