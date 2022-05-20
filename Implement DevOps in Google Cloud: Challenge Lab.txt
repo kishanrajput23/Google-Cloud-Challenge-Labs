@@ -31,7 +31,16 @@ kubectl apply -f k8s/services -n production
 kubectl get svc
 kubectl get service gceme-frontend -n production
 
-After these commands do the jenkins part then do the rest commands -
+Now let's do jenkins part then we move forward
+
+Open Jenkins --> Click on Jenkins Admin --> Credentials --> global --> adding some credentials --> Select Kind (Google Service Account From Metadata --> Select Project Name From Drop Down Menu --> Click OK
+
+
+Go to Dashboard --> New Item --> Give name sample-app --> Select Multi Branch Pipeline --> Click Ok
+
+Go to Add source and select Git --> Give Project Repository Link Given in lab (You can find it at bottm of the lab under section Tip 3) --> Change [Project ID] as per your account --> Select Credentials --> Scroll down & find "Periodically if not otherwise run" & Select 1 min --> Click Apply --> Click Save 
+
+Then run below Cpmmands in Cloud Shell
 
 git init
 git config credential.helper gcloud.sh
@@ -48,6 +57,14 @@ git push origin master
 git checkout -b new-feature
 
 After this command make the required changes!
+
+Firstly Open Editor then...
+
+Edit the file main.go in the root folder of the repo and change the version number to Version .
+const version string = "Version" (It's mentioned in your lab)
+
+Edit the file html.go in the root folder of the repo and change both lines that contains the word blue to Colour .
+<div class="card Colour"> (It's mentioned in your lab)
 
 git add Jenkinsfile html.go main.go
 git commit -m "Version 2.0.0"
