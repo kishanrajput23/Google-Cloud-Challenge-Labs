@@ -18,7 +18,7 @@ sudo su -
 apt-get update
 apt-get install apache2 -y
 service --status-all
-BASH
+
 Task 3 : Test your server
 
 Click on External IP of apache instance.
