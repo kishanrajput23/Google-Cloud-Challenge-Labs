@@ -60,6 +60,12 @@ cd ~/pet-theory/lab06/firebase-frontend/public
 nano app.js
 ```
 
+- When file opens firstly comment out first line which starts with const by using "//"
+
+- After that uncomment second line which starts with const and change the link.
+
+- In link you have to paste same link which you copied on cloud run and remember replace link before /2020 only  
+
 ```
 npm install
 cd ~/pet-theory/lab06/firebase-frontend
