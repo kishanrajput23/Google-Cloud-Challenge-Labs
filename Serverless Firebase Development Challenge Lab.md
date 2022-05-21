@@ -66,6 +66,8 @@ nano app.js
 
 - In link you have to paste same link which you copied on cloud run and remember replace link before /2020 only  
 
+- Then Type Ctrl+X then Y then Enter
+
 ```
 npm install
 cd ~/pet-theory/lab06/firebase-frontend
