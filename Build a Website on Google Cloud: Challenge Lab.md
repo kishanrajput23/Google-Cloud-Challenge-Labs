@@ -1,3 +1,39 @@
+## Defining some variables given by Cloud Skill Boosts
+
+```
+export MONOLITH_IDENTIFIER=
+```
+example variable defination - export MONOLITH_IDENTIFIER=<Monolith_Identifier_given_in_the_lab_instructions> 
+
+```
+export CLUSTER_NAME=
+```
+example variable defination - export CLUSTER_NAME=<Cluster_Name_given_in_the_lab_instructions>
+
+```
+export ORDERS_IDENTIFIER=
+```
+example variable defination - export ORDERS_IDENTIFIER=<Orders_Identifier_name_given_in_the_lab_instructions>
+
+```
+export PRODUCTS_IDENTIFIER=
+```
+example variable defination - export PRODUCTS_IDENTIFIER=<Products_Identifier_given_in_the_lab_instructions>
+
+```
+export FRONTEND_IDENTIFIER=
+```
+example variable defination - export FRONTEND_IDENTIFIER=<Frontend_Identifier_name_given_in_the_lab_instructions>
+
+## prerequisites 
+
+before starting this lab, there are some APIs, we need to enable to specific service like Cloud Build etc.
+
+```
+gcloud services enable cloudbuild.googleapis.com
+gcloud services enable container.googleapis.com
+```
+
 ## Task 1: Download the monolith code and build your container
 
 1.1 Clone the application code & scripts
