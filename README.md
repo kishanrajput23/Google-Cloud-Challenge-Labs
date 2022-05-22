@@ -11,7 +11,7 @@
 |  Badge 5  |  [Set Up and Configure a Cloud Environment in Google Cloud Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Set%20Up%20and%20Configure%20a%20Cloud%20Environment%20in%20Google%20Cloud%20Challenge%20Lab.txt)  |  [Watch Here](https://www.youtube.com/watch?v=UN4vI0zFRa0)  |
 |  Badge 6  |  [Implement DevOps in Google Cloud: Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Implement%20DevOps%20in%20Google%20Cloud:%20Challenge%20Lab.txt)  |  [Watch Here](https://cutt.ly/QHA9gHB)  |
 |  Badge 9  |  [Google Cloud Essential Skills Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Google%20Cloud%20Essential%20Skills%20Challenge%20Lab.txt)  |  [Watch Here](https://cutt.ly/4HA8acA)  |
-|  Badge 10  |  Google Cloud Essential Skills Challenge Lab  |  [Watch Here](https://cutt.ly/lHGQoX1)  |
+|  Badge 10  |  Monitor and Log with Google Cloud Operations Suite Challenge Lab  |  [Watch Here](https://cutt.ly/lHGQoX1)  |
 
 ## 📌Track 2 Solutions
 
