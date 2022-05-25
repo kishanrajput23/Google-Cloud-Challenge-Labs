@@ -25,8 +25,6 @@ bq mk $BIGQUERY_DATASET_NAME
 gsutil mb gs://$CLOUD_STORAGE_BUCKET_NAME
 ```
 
-![image](https://user-images.githubusercontent.com/104570014/166552910-15c708b1-68a3-4b5b-bf32-af1e174472ec.png)
-
 
 # Task 2: Run a simple Dataproc job
 - Set Region (if in case you get region us-east1 instead of -a replace -b)
