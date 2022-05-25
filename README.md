@@ -26,7 +26,16 @@
 
 |  Skill Badges  | Challenge Lab Solutions  |  YouTube Video Links  |
 |:--------------:|:------------------------:|:---------------------:|
-|  Badge 1  |  [Insights from Data with BigQuery: Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Insights%20from%20Data%20with%20BigQuery%20Challenge%20Lab.md)  |  Watch Here  |
-|  Badge 2  |  [Create ML Models with BigQuery ML Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Create%20ML%20Models%20with%20BigQuery%20ML%20Challenge%20Lab.md)  |  Watch Here  |
-|  Badge 6  |  [Engineer Data in Google Cloud Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Engineer%20Data%20in%20Google%20Cloud%20Challenge%20Lab.md)  |  Watch Here  |
-|  Badge 8  |  [Build and Optimize Data Warehouses with BigQuery Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Build%20and%20Optimize%20Data%20Warehouses%20with%20BigQuery%20Challenge%20Lab.md)  |  Watch Here  |
+|  Badge 1  |  [Insights from Data with BigQuery: Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Insights%20from%20Data%20with%20BigQuery%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/UH0bps5)  |
+|  Badge 2  |  [Create ML Models with BigQuery ML Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Create%20ML%20Models%20with%20BigQuery%20ML%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/0H0bkQA)  |
+|  Badge 6  |  [Engineer Data in Google Cloud Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Engineer%20Data%20in%20Google%20Cloud%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/DH0bm7c)  |
+|  Badge 8  |  [Build and Optimize Data Warehouses with BigQuery Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Build%20and%20Optimize%20Data%20Warehouses%20with%20BigQuery%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/jH0bYnW)  |
+
+## 📌Track 4 Solutions
+
+|  Skill Badges  | Challenge Lab Solutions  |  YouTube Video Links  |
+|:--------------:|:------------------------:|:---------------------:|
+|  Badge 1  |  Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab  |  Watch Here  |
+|  Badge 4  |  Integrate with Machine Learning APIs Challenge Lab  |  Watch Here  |
+|  Badge 8  |  Ensure Access & Identity in Google Cloud Challenge Lab  |  Watch Here  |
+|  Badge 11  |  Secure Workloads in Google Kubernetes Engine: Challenge Lab  |  Watch Here  |
