@@ -35,7 +35,20 @@
 
 |  Skill Badges  | Challenge Lab Solutions  |  YouTube Video Links  |
 |:--------------:|:------------------------:|:---------------------:|
-|  Badge 1  |  Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab  |  Watch Here  |
-|  Badge 4  |  Integrate with Machine Learning APIs Challenge Lab  |  Watch Here  |
-|  Badge 8  |  Ensure Access & Identity in Google Cloud Challenge Lab  |  Watch Here  |
-|  Badge 11  |  Secure Workloads in Google Kubernetes Engine: Challenge Lab  |  Watch Here  |
+|  Badge 1  |  [Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Perform%20Foundational%20Data%2C%20ML%2C%20and%20AI%20Tasks%20in%20Google%20Cloud%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/xH6QW62)  |
+|  Badge 4  |  [Integrate with Machine Learning APIs Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Integrate%20with%20Machine%20Learning%20APIs%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/mH6QO4b)  |
+|  Badge 8  |  [Ensure Access & Identity in Google Cloud Challenge Lab](https://github.com/kishanrajput23/Google-Cloud-Challenge-Labs/blob/main/Ensure%20Access%20%26%20Identity%20in%20Google%20Cloud%20Challenge%20Lab.md)  |  [Watch Here](https://cutt.ly/OH6QGPv)  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
